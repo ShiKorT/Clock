@@ -33,6 +33,8 @@ btn_res = tkinter.Button(text="Перезагрузить", command=restart)
 btn_res.place(x=450,y=270)
 
 
+btn_exit = tkinter.Button(win, text="Выйти", command=sys.exit)
+btn_exit.place(x=550,y=270)
 
 
 
