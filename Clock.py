@@ -29,6 +29,8 @@ timing()
 txt3 = tkinter.Label(win, text="hors" + " "*13+"minuts"+ " "*10+ "seconds",  font=("Arial Bold", 18))
 txt3.place(x=125,y=200)
 
+btn_res = tkinter.Button(text="Перезагрузить", command=restart)
+btn_res.place(x=450,y=270)
 
 
 
